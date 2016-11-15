@@ -17,6 +17,12 @@ function myFunction(a, b) {
 function toCelsius(fahrenheit) {
     return (5/9) * (fahrenheit-32);
 }
+parseFloat("10");        // returns 10
+parseFloat("10.33");     // returns 10.33
+parseFloat("10 20 30");  // returns 10
+parseFloat("10 years");  // returns 10
+parseFloat("years 10");
 document.getElementById("demo").innerHTML = toCelsius(77);
+
 </body>
 
